@@ -6,7 +6,6 @@ import { getActiveCity } from '../actions';
 class City extends React.Component {
   handleClick = (city) => {
     this.props.getActiveCity(this.props.city);
-    console.log(this.props)
   };
 
   render() {
