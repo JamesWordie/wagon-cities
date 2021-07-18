@@ -1,6 +1,4 @@
-// import cities from '../cities.js';
-
-const cities = [
+export const cities = [
   { name: "Paris", address: "16 Villa Gaudelet, 75011 Paris", slug: "paris" },
   { name: "London", address: "14-22 Elder St, London E1 6BT", slug: "london" },
   { name: "Berlin", address: "Rudi-Dutschke-Straße 26, 10969 Berlin", slug: "berlin" },
@@ -27,11 +25,3 @@ const cities = [
   { name: "Lyon", address: "23 Rue Paul Montrochet, 69002 Lyon", slug: "lyon" }
 ]
 
-const getCities = () => {
-  return {
-    type: 'GET_CITIES',
-    payload: cities
-  }
-};
-
-export default getCities;
