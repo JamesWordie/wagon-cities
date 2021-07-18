@@ -1,4 +1,4 @@
-export const cities = [
+const cities = [
   { name: "Paris", address: "16 Villa Gaudelet, 75011 Paris", slug: "paris" },
   { name: "London", address: "14-22 Elder St, London E1 6BT", slug: "london" },
   { name: "Berlin", address: "Rudi-Dutschke-Straße 26, 10969 Berlin", slug: "berlin" },
@@ -23,5 +23,7 @@ export const cities = [
   { name: "Bordeaux", address: "107 cours Balguerie Stuttenberg, 33300", slug: "bordeaux" },
   { name: "Lille", address: "2 Avenue des Saules, 59000 Lille", slug: "lille" },
   { name: "Lyon", address: "23 Rue Paul Montrochet, 69002 Lyon", slug: "lyon" }
-]
+];
+
+export default cities;
 

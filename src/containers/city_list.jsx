@@ -12,7 +12,7 @@ class CityList extends React.Component {
   render() {
     return (
       <ul className="list-group">
-        {this.props.cities.map((city) => <City city={city} />)}
+        {this.props.cities.map((city) => <City city={city} key={city.name} />)}
       </ul>
     );
   };
