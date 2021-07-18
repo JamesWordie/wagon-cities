@@ -1,4 +1,8 @@
-const activeCityReducer = (state = [], action) => {
+const activeCityReducer = (state, action) => {
+  if (state === undefined) {
+    return null
+  }
+
   switch (action.type) {
     case 'SET_CITY':
       return action.payload

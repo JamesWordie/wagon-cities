@@ -13,5 +13,5 @@ const getActiveCity = (city) => {
     payload: city
   }
 };
-export default getActiveCity;
-export default getCities;
+
+export { getCities, getActiveCity };
